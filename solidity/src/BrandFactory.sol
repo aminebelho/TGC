@@ -51,15 +51,13 @@ contract BrandFactory is AccessControl, Pausable{
     error BrandFactory__AlreadyVotedForThisModerator();
     error BrandFactory__HaventVotedForThisModeratorYet();
 
-    constructor(address _contractPauser, address[] memory initialModerators) {
+    constructor(address _contractPauser, address initialModerator) {
         _grantRole(PAUSER_ROLE, _contractPauser);
         contractPauser = _contractPauser;
 
-        for (uint256 i = 0; i < initialModerators.length; i++) {
-            _grantRole(MODERATOR_ROLE, initialModerators[i]);
-            isModerator[initialModerators[i]] = true;
-            moderators.push(initialModerators[i]);
-        }
+        _grantRole(MODERATOR_ROLE, initialModerator);
+            isModerator[initialModerator] = true;
+            moderators.push(initialModerator);
 
         if(hasRole(MODERATOR_ROLE, _msgSender()) == false){
             _grantRole(MODERATOR_ROLE, _msgSender());
