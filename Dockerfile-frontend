@@ -1,0 +1,9 @@
+FROM docker.io/library/node:latest
+RUN mkdir /app
+COPY ./frontend/vite-project/* /app
+WORKDIR /app
+RUN cd /app
+RUN npm i
+RUN npm i vite
+EXPOSE 5173
+CMD npm run dev
