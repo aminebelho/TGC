@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafaf9ff;
+    font-size: large;
+    font-weight: 700;
+    border: 2px solid #cdcdcdff;
+    
+
+}
+.navbarItems {
+    width: 50%;
+    display: flex;
+    justify-content: space-between; /* Distribute items with equal space between them */
+    align-items: center;
+}
+.navItem {
+    width: fit-content;
+    cursor: pointer;
+}
+.pageLogo {
+    justify-content: start;
+}
+.darkMode {
+    justify-content: end;
+}
+.nav{
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+}
+.pageLogo img  {
+    height: 36px;
+    display: flex;
+}
