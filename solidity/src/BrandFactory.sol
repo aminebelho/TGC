@@ -76,7 +76,7 @@ contract BrandFactory is AccessControl, Pausable{
 
     function upVotePauser(address newContractPauser) public onlyRole(MODERATOR_ROLE) whenNotPaused {
         if(newContractPauser == contractPauser) {revert BrandFactory__SamePauser();}
-        if(hasVotedForPauser[_msgSender()][newContractPauser]) {revert BrandFactory__AlreadyVotedForThisPauser();}
+        require(hasVotedForPauser[msg.sender][newContractPauser] == false, "Already voted for this one");
         hasVotedForPauser[_msgSender()][newContractPauser] = true;
         voteCounter_pauser[contractPauser] += 1;
     }
