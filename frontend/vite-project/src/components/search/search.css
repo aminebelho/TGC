@@ -11,33 +11,35 @@
     align-items: center;
 }
 .pageLogoW img  {
-    height: 86px;
+  width: 300px;
+  height: 150px;
     display: flex;
 }
-.search-bar {
+.search-bar2 {
     display: flex;
     align-items: center;
     border: 1px solid #cdcdcdff;
     padding: 5px;
     border-radius: 15px;
     background-color: #f1f1f1ff;
-    width: 65%;
+    width: 60%;
   }
   
-  .search-bar input {
+  .search-bar2 input {
     padding: 8px;
-    font-size: 16px;
+    font-size: 32px;
     border-radius: 4px;
     border: none;
     background-color: #f1f1f1ff;
     width: 100%;
+    font-size: 30px;
   }
-  .search-bar input:focus {
+  .search-bar2 input:focus {
     border: none; 
     outline: none; 
   }
 
-  .searchIcon {
+  .searchIcon2 {
     background-color: #ffffff;
     color: #000000;
     border-radius: 33%;
@@ -46,4 +48,9 @@
     padding: 8px;
     cursor: pointer;
     border: 1px solid #ccc;
+  }
+
+  .searchIcon2 svg {
+    width: 25px;
+    height: 25px;
   }

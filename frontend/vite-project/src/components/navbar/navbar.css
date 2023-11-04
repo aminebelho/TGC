@@ -19,8 +19,14 @@
     align-items: center;
 }
 .navItem {
+    font-size: 26px;
     width: fit-content;
     cursor: pointer;
+    text-decoration: none;
+}
+a {
+    color: black;
+    text-decoration: none;
 }
 .pageLogo {
     justify-content: start;

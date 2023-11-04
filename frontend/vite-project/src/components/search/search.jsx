@@ -9,14 +9,14 @@ function Search() {
         <div className="pageLogoW">
           <img src={logoW} alt="" />
         </div>
-        <div className="search-bar">
+        <div className="search-bar2">
           <input
             type="text"
             placeholder="Lookup a brand"
             // value={query}
             // onChange={handleInputChange}
           />
-          <div className="searchIcon">
+          <div className="searchIcon2">
             <AiOutlineSearch />
           </div>
         </div>

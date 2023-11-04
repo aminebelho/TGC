@@ -22,14 +22,14 @@ function FindAlternatives() {
                 <td>
                   <img src={th} alt="" /> Coca Cola{" "}
                 </td>
-                <td>See Why</td>
+                <td className="seewhy">See Why</td>
                 <td colSpan="2">A popular coke drink</td>
                 <td>
                   <img className="imgAlt" src={th} alt="" />
                   <img className="imgAlt" src={th} alt="" />
                   <img className="imgAlt" src="" alt="" />
                 </td>
-                <td>Compare</td>
+                <td className="seewhy">Compare</td>
               </tr>
             </tbody>
           </table>

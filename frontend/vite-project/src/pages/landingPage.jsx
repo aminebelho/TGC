@@ -7,7 +7,6 @@ function LandingPage() {
 
   return (
     <div className='LandingPage'>
-      <Navbar />
       <Search />
       <TodaysPicks />
       <FindAlternatives />

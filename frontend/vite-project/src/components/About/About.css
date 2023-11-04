@@ -1,0 +1,50 @@
+.About{
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 50px;
+}
+.content {
+    width: 80%;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #cdcdcdff;
+    background: #fafaf9ff;
+    border-radius: 10px;
+}
+
+
+.table-responsive {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding: 2%;
+  }
+
+  .title {
+    font-size: 53px;
+    width: fit-content;
+    margin-bottom: 5%;
+}
+
+.subtitle {
+    font-size: 38px;
+    margin-top: 2%;
+}
+.conceptContent {
+    display: flex;
+}
+
+.conceptItem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conceptItem img {
+    width: 75%;
+}
+.card {
+    padding: 1%;
+    font-size: 24px;
+}

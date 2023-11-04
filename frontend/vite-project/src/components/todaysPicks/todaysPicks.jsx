@@ -1,5 +1,8 @@
 import "./TodaysPicks.css";
-import th from "../../assets/th.jpg";
+import th from "../../assets/th.jpg"
+import cocacola from "../../assets/cocacola.jpg";
+import starbucks from "../../assets/starbucksLogo.jpg"
+import mcdoLogo from "../../assets/mcdoLogo.jpg"
 import { BsArrowRight } from "react-icons/bs";
 
 function TodaysPicks() {
@@ -13,7 +16,7 @@ function TodaysPicks() {
             <div class="col">
               <div className="gridContent">
                 {" "}
-                <img src={th} alt="" />
+                <img src={cocacola} alt="" />
                 <div className=" desc">
                 Featured here for supporting mass genocide in Gaza 
                 <br />
@@ -24,7 +27,7 @@ function TodaysPicks() {
             <div class="col">
               <div className="gridContent">
                 {" "}
-                <img src={th} alt="" />
+                <img src={starbucks} alt="" />
                 <div className=" desc">
                 Featured here for supporting mass genocide in Gaza 
                 <br />
@@ -35,7 +38,7 @@ function TodaysPicks() {
             <div class="col">
               <div className="gridContent">
                 {" "}
-                <img src={th} alt="" />
+                <img src={mcdoLogo} alt="" />
                 <div className=" desc">
                 Featured here for supporting mass genocide in Gaza 
                 <br />
