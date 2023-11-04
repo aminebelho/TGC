@@ -1,0 +1,27 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ipfs.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon interactWithContract.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "ipfs-http-client": "^60.0.1",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "ansi-colors": "^4.1.3"
+  }
+}
