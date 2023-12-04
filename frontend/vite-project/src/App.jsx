@@ -8,6 +8,8 @@ import LandingPage from './pages/landingPage';
 import AboutPage from './pages/AboutPage';
 import Navbar from './components/navbar/navbar';
 import ContributeAddPage from './pages/contributeAddPage';
+import ContributeMainPage from './pages/ContributeMainPage';
+import ContributeDonatePage from './pages/contributeDonatePage';
 
 
 function App() {
@@ -19,7 +21,10 @@ function App() {
           <Route index element={<LandingPage />}/>
           <Route path='/landing' element={<LandingPage />}/>
           <Route path='/about' element={<AboutPage />}/>
+          <Route path='/contributeMain' element={<ContributeMainPage />}/>
           <Route path='/contributeAdd' element={<ContributeAddPage />}/>
+          <Route path='/contributeDonate' element={<ContributeDonatePage />}/>
+
 
         </Routes>
 

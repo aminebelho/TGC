@@ -15,9 +15,8 @@ function Navbar() {
         <div className='navbarItems'>
           
             <div className='navItem'> <Link to="/about">About <IoIosArrowDown /></Link>  </div>
-            <div className='navItem'>Brands <IoIosArrowDown /></div>
             <div className='navItem'>Services <IoIosArrowDown /></div>
-            <div className='navItem'><Link to="/contributeAdd">Contribute <IoIosArrowDown /></Link></div>
+            <div className='navItem'><Link to="/contributeMain">Contribute <IoIosArrowDown /></Link></div>
         </div>
         <div className='darkMode'>
             rfeibn
